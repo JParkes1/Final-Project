@@ -1,0 +1,50 @@
+NFL, NBA, NHL, Tennis, Soccer, Golf, UFC, Cricket
+
+Best Athlete :
+Founded :
+Biggest Event :
+The Sport Explained :
+Most Sucessful Team/Person :
+link for more info :
+
+10 Questions (Tough)
+1) 
+2) 
+3) 
+4) 
+5) 
+6) 
+7) 
+8)
+9)
+10)
+
+10 Questions (impenetrable)
+1) 
+2) 
+3) 
+4) 
+5) 
+6) 
+7) 
+8)
+9)
+10)
+
+- Span over league names
+- Span over img to change
+- Span over Awnsers
+
+- Similators
+update words
+update streak counter
+add high score counter
+
+
+    document.getElementById('Line1').innerHTML = ':'
+    document.getElementById('Line2').innerHTML = ':';
+    document.getElementById('Line3').innerHTML = ':';
+    document.getElementById('Line4').innerHTML = ':';
+    document.getElementById('Line5').innerHTML = ':';
+    document.getElementById('Line6').innerHTML = ':';
+

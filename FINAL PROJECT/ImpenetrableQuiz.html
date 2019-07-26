@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Impenetrable Quiz</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <center>
+            <h1>Impenetrable Quiz</h1>
+            <hr width="80%">
+        </center>
+        
+        <H3>Question 1:</H3>
+        <P>Who is this?</P>
+        <center><img src="images/alphonso.jpg"></center>
+        <ul>
+            <li>Michael Bradley</li>
+            <li>Kevin Tyler</li>
+            <li>Alphonso Davies</li>
+            <li>None of the above</li>
+        </ul>
+        <p>Answer: <input id="Question1" type="text"></p>
+
+        <H3>Question 2:</H3>
+        <p>What sport is this audio clip from?</p>
+        <p><audio controls><source src="images/GolfClubSwing.mp3"></audio></p>
+            <li>Tennis</li>
+            <li>Golf</li>
+            <li>Hockey</li>
+            <li>Baseball</li>
+        </ul>
+        <p>Answer: <input id="Question2" type="text"></p>
+
+        <H3>Question 3:</H3>
+        <P>Who is Edmonton's CFL quaterback for this season?</P>
+        <ul>
+            <li>Mike Reilly</li>
+            <li>Ricky Ray</li>
+            <li>Aaron Grymes</li>
+            <li>Trevor Harris</li>
+        </ul>
+        <p>Answer: <input id="Question3" type="text"></p>
+
+        <H3>Question 4:</H3>
+        <P>Who is the NFL's current commissioner?</P>
+        <ul>
+            <li>Jerry Jones</li>
+            <li>Roger Goodell</li>
+            <li>Carl Anderson</li>
+            <li>Adam Silver</li>
+        </ul>
+        <p>Answer: <input id="Question4" type="text"></p>
+
+        <H3>Question 5:</H3>
+        <P>Who is fighting in UFC 240 this weekend in Edmonton?</P>
+        <ul>
+            <li>Max Holloway</li>
+            <li>Tyron Woodley</li>
+            <li>Dustin Poirier</li>
+            <li>Eddie Alvarez</li>
+        </ul>
+        <p>Answer: <input id="Question5" type="text"></p>
+
+        <center>
+            <hr width="80%">
+            <p><button id="MarkQ">Mark my Quiz</button></p>
+            <p><a href="index.HTML"><button>Back to the home page</button></a></p>
+            <p>Your score is <span id="Score">___</span> / 5 (<span id="Percentage">___</span>%)</p>
+            <p id="howWell"></p>
+        </center>
+        <script src="ImpenetrableQuiz.js"></script>
+    </body>
+</html>
